@@ -114,7 +114,7 @@ $ sudo adduser --system --disabled-password --disabled-login --home /var/lib/cor
 Загрузим его сразу в необходимую директорию:
 
 ```
-$ sudo wget https://raw.githubusercontent.com/coredns/deployment/master/debian/coredns.service -O /etc/systemd/system/coredns.service
+$ sudo wget https://raw.githubusercontent.com/coredns/deployment/master/debian/coredns.service -O /lib/systemd/system/coredns.service
 ```
 
 Теперь нам необходимо определиться с адресом, по которому будет доступен DoT /
